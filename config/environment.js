@@ -12,6 +12,9 @@ module.exports = function(environment) {
       databaseURL: 'https://id3-firebase.firebaseio.com',
       storageBucket: 'id3-firebase.appspot.com'
     },
+    torii: {
+      sessionServiceName: 'session'
+    },
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
